@@ -1,12 +1,13 @@
 body {
     padding: 10px;
-    color: #333a40; 
+    color: #333a40;
     background-color: rgba(253, 217, 169, 0.30);
     font-family: "Open Sans", Arial, sans-serif;
 }
 
 header {        
-    overflow: hidden; 
+    overflow: hidden;
+    max-height: 400px;
 }
 
 header img {
@@ -26,6 +27,7 @@ nav {
 
 a {
     color: rgb(32, 30, 49);
+    font-weight: bold;
 }
 
 h1, h2, h3 {
@@ -49,6 +51,7 @@ p {
 
 .dijazott {    
     letter-spacing: 1px;
+    font-style: oblique;
 }
 
 .drop-shadow {
@@ -103,11 +106,14 @@ input[type="range"] {
 }
 
 #nevjegy h2 small {
-    color: #333a40; 
+    color: #333a40;
 }
 
 #velGomb {
     color: rgb(32, 30, 49);
     font-weight: bold;
     cursor: pointer;
+}
+.class{
+    line-height: 200%;
 }
